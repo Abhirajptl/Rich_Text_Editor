@@ -1,0 +1,14 @@
+.popover {
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .popover-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .popover-item:hover {
+    background: #eee;
+  }

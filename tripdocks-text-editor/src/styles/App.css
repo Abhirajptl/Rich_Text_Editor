@@ -1,0 +1,19 @@
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  // src/styles/Editor.css
+  .editor-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+    position: relative;
+  }
+  
+  .popover-wrapper {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }

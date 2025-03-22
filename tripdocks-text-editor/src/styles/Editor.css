@@ -1,0 +1,64 @@
+.editor-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #1f2937;
+  }
+  
+  /* Editor Wrapper */
+  .editor-wrapper {
+    border: 2px solid #444; /* Darker border for better visibility */
+    padding: 10px;
+    min-height: 250px;
+    background-color: #f9f9f9; /* Slightly gray background */
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* TipTap Editor Area */
+  .ProseMirror {
+    min-height: 200px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #ffffff; /* White input area */
+    color: #222; /* Darker text for readability */
+    border-radius: 4px;
+    border: 2px solid #888; /* Visible border */
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Focus Effect for Better Typing Experience */
+  .ProseMirror:focus {
+    border: 2px solid #007bff; /* Highlight border on focus */
+    box-shadow: 0px 0px 6px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Popover Styling */
+  .popover {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  .popover-item {
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .popover-item:hover {
+    background: #f0f0f0;
+    color: #000;
+  }
+  
